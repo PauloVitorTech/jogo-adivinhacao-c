@@ -55,7 +55,7 @@ int main() {
         }
 
         if (palpite == numeroSecreto) {
-            printf("\n🎉 PARABENS! Voce acertou em %d tentativas!\n", tentativas);
+            printf("\n PARABENS! Voce acertou em %d tentativas!\n", tentativas);
             break;
         } else if (palpite < numeroSecreto) {
             printf("O numero secreto e MAIOR que %d.\n", palpite);
@@ -64,7 +64,7 @@ int main() {
         }
 
         if (tentativas == limiteTentativas) {
-            printf("\n💥 Fim de jogo! Suas tentativas acabaram.\n");
+            printf("\n Fim de jogo! Suas tentativas acabaram.\n");
             printf("O numero secreto era: %d\n", numeroSecreto);
         }
 
